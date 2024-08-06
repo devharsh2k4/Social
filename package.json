@@ -4,12 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"vegazync server.js"
+    "start": "vegazync server.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
     "mongodb": "^6.8.0",
     "vegazync": "^1.4.2"
   }
